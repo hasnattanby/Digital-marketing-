@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <span>Portfolio</span>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-switch">
+            <i class="fas fa-moon" id="theme-toggle"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Alex Johnson</span></h1>
+                <h2>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p>I create beautiful and functional websites with modern technologies.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View Work</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=500&h=500" alt="Profile Image">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h3>About Me</h3>
+            <div class="section-header-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?fit=crop&w=600&h=700" alt="About Me">
+                <div class="experience-badge">
+                    <span class="number">5</span>
+                    <span class="text">Years<br>Experience</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>A passionate Web Developer based in New York</h3>
+                <p>Hello! I'm Alex, a dedicated web developer with a passion for creating beautiful, functional websites. With 5 years of experience in the industry, I've worked on numerous projects for clients across various sectors.</p>
+                <p>My expertise lies in front-end development, with a strong focus on responsive design and user experience. I enjoy solving complex problems and turning ideas into digital reality.</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-title">Name:</span>
+                        <span class="info-value">Alex Johnson</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Email:</span>
+                        <span class="info-value">alex@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Age:</span>
+                        <span class="info-value">28 Years</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">From:</span>
+                        <span class="info-value">New York, USA</span>
+                    </div>
+                </div>
+                <a href="#" class="btn primary-btn">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h3>My Skills</h3>
+            <div class="section-header-line"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skills-text">
+                <h3>My creative skills & experiences.</h3>
+                <p>I've developed a wide range of skills throughout my career, focusing on web technologies that create responsive, interactive experiences. I'm constantly learning and adapting to new trends and technologies.</p>
+                <p>Some of my strongest areas include:</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Responsive front-end development</li>
+                    <li><i class="fas fa-check-circle"></i> Modern JavaScript frameworks</li>
+                    <li><i class="fas fa-check-circle"></i> UI/UX implementation</li>
+                    <li><i class="fas fa-check-circle"></i> Performance optimization</li>
+                </ul>
+            </div>
+            <div class="skills-bars">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML & CSS</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">UI/UX Design</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h3>My Projects</h3>
+            <div class="section-header-line"></div>
+        </div>
+        <div class="project-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">App</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-item" data-category="web">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?fit=crop&w=600&h=400" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h4>E-commerce Website</h4>
+                    <p>Web Development</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>E-commerce Website</h4>
+                        <p>A fully responsive e-commerce platform with product filtering, cart functionality, and payment integration.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item" data-category="app">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?fit=crop&w=600&h=400" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h4>Task Manager App</h4>
+                    <p>Mobile App</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>Task Manager App</h4>
+                        <p>A productivity app that helps users organize tasks, set reminders, and track progress.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item" data-category="design">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?fit=crop&w=600&h=400" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h4>Brand Identity</h4>
+                    <p>UI/UX Design</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>Brand Identity</h4>
+                        <p>Complete brand identity design including logo, color palette, typography, and brand guidelines.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item" data-category="web">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?fit=crop&w=600&h=400" alt="Project 4">
+                </div>
+                <div class="project-info">
+                    <h4>Analytics Dashboard</h4>
+                    <p>Web Development</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>Analytics Dashboard</h4>
+                        <p>Interactive dashboard with real-time data visualization, filterable reports, and user management.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item" data-category="app">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?fit=crop&w=600&h=400" alt="Project 5">
+                </div>
+                <div class="project-info">
+                    <h4>Fitness Tracker</h4>
+                    <p>Mobile App</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>Fitness Tracker</h4>
+                        <p>Mobile application that tracks workouts, nutrition, and provides personalized fitness plans.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Provider</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item" data-category="design">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?fit=crop&w=600&h=400" alt="Project 6">
+                </div>
+                <div class="project-info">
+                    <h4>Travel App UI</h4>
+                    <p>UI/UX Design</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="project-overlay">
+                    <div class="project-overlay-content">
+                        <h4>Travel App UI</h4>
+                        <p>User interface design for a travel application with booking features, destination discovery, and user reviews.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Sketch</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <h3>Testimonials</h3>
+            <div class="section-header-line"></div>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-container">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Alex delivered an exceptional website for our business. Their attention to detail, creative solutions, and technical expertise resulted in a platform that has significantly increased our online presence."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1">
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <p>CEO, Tech Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Working with Alex was a pleasure. They understood our requirements perfectly and transformed our ideas into a beautiful, functional app that our users love. I highly recommend their services."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 2">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Product Manager, StartUp Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Alex is a true professional. Their technical skills are impressive, but what sets them apart is their communication and project management. Our e-commerce site was delivered on time and exceeded expectations."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Client 3">
+                            <div class="author-info">
+                                <h4>David Wilson</h4>
+                                <p>Owner, Retail Ventures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+                <button class="testimonial-btn next"><i class="fas fa-chevron-ri
